@@ -1,0 +1,65 @@
+.login-form {
+  padding: 25px 0;
+
+  width: 300px;
+
+  background: #03fdfd;
+
+  border: 1px solid #ccc;
+  border-radius: 1px;
+}
+
+.form-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form-control {
+  margin: 15px 37px;
+
+  display: flex;
+  flex-direction: column;
+
+  &:nth-child(3) {
+    .form-label {
+      padding-bottom: 15px;
+    }
+
+    .form-input {
+      width: 13px;
+      height: 13px;
+    }
+  }
+}
+
+.form-label {
+  padding-bottom: 5px;
+}
+
+.form-input {
+  outline: none;
+
+  width: 225px;
+  height: 25px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  background: #f1f1f1;
+}
+
+.submit-button {
+  width: 225px;
+  height: 25px;
+
+  margin: 15px 37px;
+  border: 1px solid #fc7144;
+  border-radius: 5px;
+
+  background: #fc7144;
+
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+}
+
